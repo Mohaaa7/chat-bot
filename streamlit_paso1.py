@@ -16,7 +16,7 @@ temperatura = st.sidebar.slider("Temperatura", min_value=0.0, max_value=1.0, val
 # Select para modelo
 modelo_seleccionado = st.sidebar.selectbox(
     "Selecciona el modelo",
-    ["gemini-2.5-flash", "gemini-1.0", "otro-modelo"]  # Ajusta según los modelos disponibles
+    ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-1.5-flash"]  
 )
 
 # Botón para limpiar conversación
